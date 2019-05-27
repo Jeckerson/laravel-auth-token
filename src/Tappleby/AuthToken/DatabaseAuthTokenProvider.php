@@ -9,7 +9,7 @@ namespace Tappleby\AuthToken;
 
 use \Illuminate\Contracts\Auth\Authenticatable;
 use \Illuminate\Database\Connection;
-use Illuminate\Encryption\Encrypter;
+use Illuminate\Contracts\Encryption\Encrypter;
 
 class DatabaseAuthTokenProvider extends AbstractAuthTokenProvider {
 
